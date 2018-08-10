@@ -5,6 +5,7 @@ Thumbs.db
 .project
 .svn
 .nvm-version
+css/
 node_modules
 package-lock.json
 package.json
