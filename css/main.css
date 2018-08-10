@@ -1,11 +1,24 @@
+
+
 /* CAROUSEL */
 .carousel {
   margin-bottom: 4rem;
 
 }
 /* Since positioning the image, we need to help out the caption */
+
+#slide-one {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#image-one {
+  /* margin-top: 6rem; */
+  display: inline-block;
+}
+
 .carousel-caption {
-  bottom: 6rem;
+  bottom: 5rem;
   z-index: 10;
   color: black;
 }
@@ -13,11 +26,10 @@
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 36rem;
-  /* background-color: #777; */
 }
 .carousel-item > img {
   position: absolute;
-  margin-top: 5rem;
+  margin-top: 0;
   left: 0;
   min-width: 100%;
 
