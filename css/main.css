@@ -7,16 +7,6 @@
 }
 /* Since positioning the image, we need to help out the caption */
 
-#slide-one {
-  flex-direction: column;
-  justify-content: center;
-}
-
-#image-one {
-  /* margin-top: 6rem; */
-  display: inline-block;
-}
-
 .carousel-caption {
   bottom: 5rem;
   z-index: 10;
@@ -73,6 +63,20 @@ ul {
   height: 400px;
   background-color: grey;
 }
+
+/* NAVBAR */
+#navbar {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 1;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
+}
+
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
