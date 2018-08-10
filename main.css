@@ -37,6 +37,8 @@
   border: 3px dotted blue;
 }
 
+/* BODY AND OTHER */
+
 body {
   font-family: 'Lato', sans-serif !important;
 }
@@ -46,6 +48,18 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
+}
+
+ul {
+  list-style: none;
+}
+
+/* MAP */
+
+#map {
+  width: 400px;
+  height: 400px;
+  background-color: grey;
 }
 
 /* RESPONSIVE CSS
