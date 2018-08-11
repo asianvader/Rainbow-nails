@@ -1,0 +1,32 @@
+{
+  "name": "Rainbow-nails",
+  "version": "1.0.0",
+  "description": "A website for Rainbow Nails.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asianvader/Rainbow-nails.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asianvader/Rainbow-nails/issues"
+  },
+  "homepage": "https://github.com/asianvader/Rainbow-nails#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-autoprefixer": "latest"
+  }
+}

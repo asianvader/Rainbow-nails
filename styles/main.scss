@@ -1,7 +1,3 @@
-// compileExpanded: ../css/$1.css
-
-
-
 /* CAROUSEL */
 .carousel {
   margin-bottom: 4rem;
@@ -11,7 +7,7 @@
 .carousel-caption {
   bottom: 5rem;
   z-index: 10;
-  color: black;
+  color: yellow;
 }
 
 /* Declare heights because of positioning of img element */
@@ -25,7 +21,6 @@
   left: 0;
   min-width: 100%;
 }
-
 
 /* GRID SETTINGS */
 
@@ -48,6 +43,7 @@ body {
 }
 
 h1 {
+  background: -webkit-gradient(linear, left top, right top, from(orange), color-stop(yellow), color-stop(green), color-stop(cyan), color-stop(blue), to(violet));
   background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -71,14 +67,15 @@ ul {
   background-color: white;
   position: fixed;
   width: 100%;
+
   transition: top 0.3s;
   z-index: 10;
+
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
   -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
   box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
+
 }
-
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
