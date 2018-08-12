@@ -22,7 +22,7 @@ gulp.task('copy', function() {
 
 gulp.task('sass', function() {
   gulp.src(sassSources)
-  .pipe(sass({style: 'expanded'}))
+  .pipe(sass({ style: 'expanded' }))
   // .pipe(autoprefixer({
 	// 		browsers: ['last 2 versions'],
 	// 		cascade: false
