@@ -1,5 +1,6 @@
 // COLOUR VARIABLES
 $black: #000000;
+$offpink: #fef3f1;
 
 $color-main-p: $black;
 
@@ -23,10 +24,18 @@ $color-main-p: $black;
 }
 
 .carousel-item > img {
+  // position: absolute;
+  // margin-top: 0;
+  // left: 0;
+  // min-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   position: absolute;
-  margin-top: 0;
+  top: 0;
+  bottom: 0;
   left: 0;
-  min-width: 100%;
+  right: 0;
+  margin: auto;
 }
 
 /* GRID SETTINGS */
@@ -42,6 +51,17 @@ $color-main-p: $black;
 //   border: 3px dotted blue;
 // }
 
+.gallery-col {
+  border: 3px dotted blue;
+  align-self: center;
+  width: 200px;
+}
+
+.gallery-row {
+  border: 3px solid red;
+}
+
+
 // FOOTER
 .footer {
   position: absolute;
@@ -51,6 +71,12 @@ $color-main-p: $black;
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+// Gallery
+.gallery-row {
+  height: 240px;
+}
+
 
 
 /* BODY AND OTHER */
@@ -76,6 +102,8 @@ h1 {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
@@ -84,6 +112,7 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 0, 200, 0.5), rgba(0, 0, 0, 0));
 }
+
 
 /* MAP */
 
