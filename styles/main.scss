@@ -30,17 +30,17 @@ $color-main-p: $black;
 }
 
 /* GRID SETTINGS */
-.my-container {
-  border: 1px solid green;
-}
-
-.my-row {
-  border: 3px solid red;
-}
-
-.my-col {
-  border: 3px dotted blue;
-}
+// .my-container {
+//   border: 1px solid green;
+// }
+//
+// .my-row {
+//   border: 3px solid red;
+// }
+//
+// .my-col {
+//   border: 3px dotted blue;
+// }
 
 // FOOTER
 .footer {
@@ -71,10 +71,18 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
+  text-align: center;
 }
 
 ul {
   list-style: none;
+}
+
+hr {
+  margin: 5rem 15rem 5rem 15rem ;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 0, 200, 0.5), rgba(0, 0, 0, 0));
 }
 
 /* MAP */
