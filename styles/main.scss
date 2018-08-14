@@ -65,7 +65,7 @@ $color-main-p: $black;
 // Gallery
 
 .gallery-col {
-  // border: 3px dotted blue;
+  //border: 3px dotted blue;
   padding: 1rem 0rem 1rem 0rem;
 }
 
@@ -76,6 +76,10 @@ $color-main-p: $black;
 .img-fluid {
   max-width: 200px;
   max-height: auto;
+}
+
+.img-thumbnail {
+  margin: 0rem 1rem 0rem 1rem;
 }
 
 /* BODY AND OTHER */
