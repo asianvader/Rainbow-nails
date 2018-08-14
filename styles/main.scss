@@ -51,16 +51,6 @@ $color-main-p: $black;
 //   border: 3px dotted blue;
 // }
 
-.gallery-col {
-  border: 3px dotted blue;
-  align-self: center;
-  width: 200px;
-}
-
-.gallery-row {
-  border: 3px solid red;
-}
-
 
 // FOOTER
 .footer {
@@ -73,9 +63,18 @@ $color-main-p: $black;
 }
 
 // Gallery
-.gallery-row {
-  height: 240px;
+
+.gallery-col {
+  border: 3px dotted blue;
+  //align-self: center;
+  // min-width: 200px;
 }
+
+.gallery-row {
+  border: 3px solid red;
+  margin: 1rem 0rem 1rem 0rem;
+}
+
 
 
 
