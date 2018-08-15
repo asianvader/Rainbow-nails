@@ -39,17 +39,17 @@ $color-main-p: $black;
 }
 
 /* GRID SETTINGS */
-// .my-container {
-//   border: 1px solid green;
-// }
-//
-// .my-row {
-//   border: 3px solid red;
-// }
-//
-// .my-col {
-//   border: 3px dotted blue;
-// }
+.my-container {
+  border: 1px solid green;
+}
+
+.my-row {
+  border: 3px solid red;
+}
+
+.my-col {
+  border: 3px dotted blue;
+}
 
 
 // FOOTER
@@ -73,7 +73,7 @@ $color-main-p: $black;
 //   border: 3px solid red;
 // }
 
-.img-fluid {
+.gallery-col .img-fluid {
   max-width: 200px;
   max-height: auto;
 }
@@ -126,7 +126,10 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 0, 200, 0.5), rgba(0, 0, 0, 0));
 }
 
-
+// #shop-img {
+//   width: auto;
+//   height: auto;
+// }
 /* MAP */
 
 #map {
