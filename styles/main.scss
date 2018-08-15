@@ -39,17 +39,17 @@ $color-main-p: $black;
 }
 
 /* GRID SETTINGS */
-.my-container {
-  border: 1px solid green;
-}
-
-.my-row {
-  border: 3px solid red;
-}
-
-.my-col {
-  border: 3px dotted blue;
-}
+// .my-container {
+//   border: 1px solid green;
+// }
+//
+// .my-row {
+//   border: 3px solid red;
+// }
+//
+// .my-col {
+//   border: 3px dotted blue;
+// }
 
 
 // FOOTER
@@ -60,6 +60,9 @@ $color-main-p: $black;
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
 }
 
 // Gallery
@@ -78,7 +81,7 @@ $color-main-p: $black;
   max-height: auto;
 }
 
-.img-thumbnail {
+.gallery-col .img-thumbnail {
   margin: 0rem 1rem 0rem 1rem;
 }
 
@@ -120,16 +123,16 @@ ul {
 }
 
 hr {
-  margin: 5rem 15rem 5rem 15rem ;
+  margin: 5rem 12rem 5rem 12rem ;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 0, 200, 0.5), rgba(0, 0, 0, 0));
 }
 
-// #shop-img {
-//   width: auto;
-//   height: auto;
-// }
+.about-img .img-thumbnail {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
 /* MAP */
 
 #map {
