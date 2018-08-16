@@ -28,7 +28,7 @@ $color-main-p: $black;
   // margin-top: 0;
   // left: 0;
   // min-width: 100%;
-  max-height: 100%;
+  max-height: auto;
   max-width: 100%;
   position: absolute;
   top: 0;
@@ -39,17 +39,17 @@ $color-main-p: $black;
 }
 
 /* GRID SETTINGS */
-.my-container {
-  border: 1px solid green;
-}
-
-.my-row {
-  border: 3px solid red;
-}
-
-.my-col {
-  border: 3px dotted blue;
-}
+// .my-container {
+//   border: 1px solid green;
+// }
+//
+// .my-row {
+//   border: 3px solid red;
+// }
+//
+// .my-col {
+//   border: 3px dotted blue;
+// }
 
 // FOOTER
 .footer {
@@ -62,7 +62,6 @@ $color-main-p: $black;
 }
 
 // Gallery
-
 .gallery-col {
   //border: 3px dotted blue;
   padding: 1rem 0rem 1rem 0rem;
@@ -81,6 +80,13 @@ $color-main-p: $black;
   margin: 0rem 1rem 0rem 1rem;
 }
 
+#gallery-bg {
+  background-image: url(images/dust_scratches.png);
+}
+
+#services-bg {
+  background-image: url(images/dust_scratches.png);
+}
 /* BODY AND OTHER */
 
 html {
@@ -91,6 +97,10 @@ html {
 body {
   font-family: 'Lato', sans-serif !important;
   margin-bottom: 60px;
+}
+
+section {
+  padding-top: 3rem;
 }
 
 h1 {
@@ -105,6 +115,7 @@ h1 {
 h2 {
   text-align: center;
   font-weight: bold;
+
 }
 
 h3 {
@@ -119,10 +130,10 @@ ul {
 }
 
 hr {
-  margin: 5rem 12rem 5rem 12rem ;
+  margin: 0;
   border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 0, 200, 0.5), rgba(0, 0, 0, 0));
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0));
 }
 
 .about-img .img-thumbnail {
@@ -131,10 +142,8 @@ hr {
 
 /* MAP */
 
-#map {
-  width: 400px;
-  height: 400px;
-  background-color: grey;
+.map {
+  margin: 2rem 0rem 2rem 0rem;
 }
 
 #testimonials-section {
@@ -153,6 +162,10 @@ hr {
   -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
   box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
 
+}
+
+.nav-brand {
+  display:inline;
 }
 
 /* RESPONSIVE CSS
@@ -177,3 +190,5 @@ hr {
     margin-top: 7rem;
   }
 }
+
+/* Background pattern from Toptal Subtle Patterns */
