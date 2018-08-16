@@ -39,17 +39,17 @@ $color-main-p: $black;
 }
 
 /* GRID SETTINGS */
-// .my-container {
-//   border: 1px solid green;
-// }
-//
-// .my-row {
-//   border: 3px solid red;
-// }
-//
-// .my-col {
-//   border: 3px dotted blue;
-// }
+.my-container {
+  border: 1px solid green;
+}
+
+.my-row {
+  border: 3px solid red;
+}
+
+.my-col {
+  border: 3px dotted blue;
+}
 
 
 // FOOTER
@@ -57,12 +57,12 @@ $color-main-p: $black;
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
-  -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
-  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.13);
+  height: 50px;
+  line-height: 50px; /* Vertically center the text there */
+
+  -webkit-box-shadow: 0px -2px 2px -2px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px -2px 2px -2px rgba(0,0,0,0.13)
+  box-shadow: 0px -2px 2px -2px rgba(0,0,0,0.13);
 }
 
 // Gallery
