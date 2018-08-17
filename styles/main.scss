@@ -62,6 +62,10 @@ $color-main-p: $black;
 
 }
 
+.icon-bar a:hover {
+  background-color: #000;
+}
+
 .icon-bar a {
   display: block;
   text-align: center;
@@ -76,6 +80,10 @@ $color-main-p: $black;
   color: white;
 }
 
+.instagram {
+  background: #C2255C;
+  color: black;
+}
 //Social media buttons on page
 
 .icon-facebook {
