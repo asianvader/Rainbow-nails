@@ -115,7 +115,9 @@
 }
 
 #services-bg {
-  background-image: url(images/dust_scratches.png);
+  background: url(images/background7.jpeg)no-repeat center center;
+  background-position: right;
+  background-size: auto 100%;
 }
 
 #about-bg {
@@ -214,7 +216,9 @@ hr {
 
 }
 
-
+.table {
+  margin-bottom: 3rem;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -231,6 +235,18 @@ hr {
     font-size: 50px;
   }
 }
+
+@media (min-width: 992px) {
+  #about-bg {
+    background-position: 0 160px;
+  }
+
+  #testimonials-bg {
+    background-position: 0 80px;
+  }
+}
+
+
 
 // @media (min-width: 62em) {
 //   .featurette-heading {
