@@ -272,9 +272,7 @@ hr {
   }
 }
 
-
-
-
+// iphone 6/7/8
 @media only screen
   and (min-device-width : 375px)
   and (max-device-width : 667px)
@@ -284,27 +282,51 @@ hr {
     .carousel-item {
       height: 330px;
     }
-    //
-    // .carousel {
-    //   margin-bottom: 0;
-    // }
-    //
-    // .carousel-caption {
-    //   bottom: 5rem;
-    //   margin-left: -11vw;
-    // }
-    //
-    // .carousel-caption p:nth-child(1) {
-    //   font-size: 3.5vw;
-    // }
+
+    .carousel {
+      margin-bottom: 0;
+    }
+
+    .carousel-caption {
+      bottom: 5rem;
+      margin-left: -11vw;
+    }
+
+    .carousel-caption p:nth-child(1) {
+      font-size: 3.5vw;
+    }
 
 }
 
-
+// iphone x
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .carousel-item {
+      height: 330px;
+    }
+
+    .carousel {
+      margin-bottom: 0;
+    }
+
+    .carousel-caption {
+      bottom: 5rem;
+      margin-left: -11vw;
+    }
+
+    .carousel-caption p:nth-child(1) {
+      font-size: 3.5vw;
+    }
+  }
+
+  // galaxy s5, note
+  @media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
   and (orientation: portrait) {
     .carousel-item {
       height: 330px;
