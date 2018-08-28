@@ -166,8 +166,6 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   font-size: 7vw;
-  //text-shadow: 4px 2px 0px rgba(125, 125, 125, .15);
-
 }
 
 h2 {
@@ -300,6 +298,14 @@ hr {
       border-image-slice: 1;
     }
 
+    h1 {
+      font-size: 10vw;
+    }
+
+    .icon-bar {
+      top: 80%;
+    }
+
 }
 
 // iphone x
@@ -331,6 +337,10 @@ hr {
       border-image-slice: 1;
     }
 
+    .icon-bar {
+      top: 80%;
+    }
+
   }
 
   // galaxy s5, note
@@ -360,6 +370,10 @@ hr {
       border-bottom: solid 5px #2c90fc;
       border-image: none;
       border-image-slice: 1;
+    }
+
+    .icon-bar {
+      top: 80%;
     }
 
   }
