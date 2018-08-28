@@ -171,7 +171,6 @@ h1 {
 }
 
 h2 {
-  //font-weight:bold;
   display: inline-block;
   border-bottom: solid 5px transparent;
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
@@ -248,7 +247,6 @@ hr {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
-
   }
 
   .featurette-heading {
@@ -296,6 +294,12 @@ hr {
       font-size: 3.5vw;
     }
 
+    h2 {
+      border-bottom: solid 5px #2c90fc;
+      border-image: none;
+      border-image-slice: 1;
+    }
+
 }
 
 // iphone x
@@ -320,6 +324,13 @@ hr {
     .carousel-caption p:nth-child(1) {
       font-size: 3.5vw;
     }
+
+    h2 {
+      border-bottom: solid 5px #2c90fc;
+      border-image: none;
+      border-image-slice: 1;
+    }
+
   }
 
   // galaxy s5, note
@@ -344,6 +355,13 @@ hr {
     .carousel-caption p:nth-child(1) {
       font-size: 3.5vw;
     }
+
+    h2 {
+      border-bottom: solid 5px #2c90fc;
+      border-image: none;
+      border-image-slice: 1;
+    }
+
   }
 
 /* Background pattern from Toptal Subtle Patterns */
