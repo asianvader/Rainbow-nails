@@ -299,11 +299,20 @@ and (orientation: portrait) {
   and (orientation: landscape) {
     #about-bg {
       background-attachment: scroll;
-
     }
 
     #testimonials-bg {
       background-attachment: scroll;
+    }
+
+    h2 {
+      border-bottom: solid 5px #2c90fc;
+      border-image: none;
+      border-image-slice: 1;
+    }
+
+    .icon-bar {
+      top: 90%;
     }
   }
 
